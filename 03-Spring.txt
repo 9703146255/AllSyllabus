@@ -1,0 +1,209 @@
+Spring-Course Content
+================================================
+1 About Spring 5.x Training
+2 Spring 5.x Course Prerequisite
+3 Spring 5.x Training Course Objective
+4 Spring 5.x Training Course Duration
+5 Spring 5.x Training Overview
+5.1 Spring Introduction
+5.2 Spring Core Module
+5.3 Spring Core Module with Annotations
+5.4 Spring Core Module with 100% Code/Java Config Approach.
+5.5 Spring Boot Core
+5.6 Spring JDBC/DAO
+5.7 Spring AOP Module
+5.8 Spring Transaction Management
+5.9 Spring MVC
+5.10 Spring Security
+5.11 Spring ORM
+5.12 Spring Data and Spring Data JPA
+5.13 Spring Batch
+5.14 Spring Mail
+5.15 Introduction to Spring MicroServices
+5.16 How to Explain Project Architectures
+
+
+
+1. Spring Introduction
+   1.1 Differences between Programming Language, Software Technology, and Framework
+   1.2 Introduction to Spring Framework
+   1.3 Evolution of Spring Framework
+   1.4 Modules of Spring in Spring 1.x, 2.x, 3.x, 4.x, and 5.x
+   1.5 MVC Architecture
+   1.6 Role of Spring Framework in MVC Architecture Application Development
+   1.7 Definition of Spring Framework
+
+2. POJO Class, POJI, JavaBean, Component Class, Spring Bean Classes
+
+3. Spring Core Module
+   3.1 Introduction to IOC
+   3.2 Introduction to Spring Container/IOC Container
+   3.3 Types of Dependency Injections
+      3.3.1 Setter Injection
+      3.3.2 Constructor Injection
+      3.3.3 Aware Injection
+      3.3.4 Method Injection
+      3.3.5 Lookup Method Injection
+   3.4 Introduction to Design Patterns
+      3.4.1 Factory Design Pattern
+      3.4.2 Strategy Design Pattern
+   3.5 Layered Application Demonstrating Real-Time Dependency Injection
+   3.6 Resolving/Identifying Params in Constructor Injection
+   3.7 Bean Inheritance
+   3.8 Collection Merging
+   3.9 Null Injections
+   3.10 Bean Alias
+   3.11 Default Bean IDs
+   3.12 Performing Dependency Lookup by Using IOC Container
+   3.13 `<idref>` Tag
+   3.14 Understanding Factory Methods
+      3.14.1 Factory Method Bean Instantiation
+      3.14.2 Static Factory Method Bean Instantiation
+      3.14.3 Instance Factory Method Bean Instantiation
+   3.15 Singleton Java Class and Its Use Cases
+   3.16 Bean Scopes
+      3.16.1 Singleton
+      3.16.2 Prototype
+      3.16.3 Request
+      3.16.4 Session
+      3.16.5 Application
+      3.16.6 WebSocket
+   3.17 Bean Wiring
+      3.17.1 Explicit Wiring
+      3.17.2 Implicit Wiring or Auto Wiring
+      3.17.3 By Type
+      3.17.4 By Name
+      3.17.5 Constructor
+      3.17.6 Autodetect
+      3.17.7 p-namespace, C-namespace
+   3.18 ApplicationContext Container
+   3.19 Preinstantiation of Singleton Scope Beans
+   3.20 Working with Properties File
+   3.21 I18n (Internationalization)
+   3.22 Event Handling
+   3.23 BeanFactory vs ApplicationContext
+   3.24 Automatic Registration of Bean Post Processor and Bean Factory Post Processor
+   3.25 Bean Life Cycle
+      3.25.1 Declarative Approach
+      3.25.2 Programmatic Approach
+      3.25.3 Annotation-Driven Approach
+   3.26 Nested IOC Containers
+      3.26.1 Presentation Tier
+      3.26.2 Business Tier
+   3.27 Various Attributes of `<ref>` Tag
+   3.28 FactoryBean
+   3.29 ServiceLocator as Factory Bean
+   3.30 Factory Method Bean Instantiation Based Service Locator
+   3.31 Method Replacement/Method Injection
+   3.32 Aware Injection
+   3.33 Lookup Method Injection
+   3.34 BeanPostProcessor
+   3.35 BeanFactoryPostProcessors
+   3.36 PropertyEditors
+   3.37 Custom Property Editors
+   3.38 Spring Expression Language (SpEL)
+
+4. Spring Core Module with Annotations
+   4.1 Spring Stereotype Annotations
+      4.1.1 `@Component`, `@Service`, `@Controller`, `@Repository`, etc.
+   4.2 `@Autowired`, `@Qualifier`, `@Lazy`, etc.
+   4.3 Working with Java Config Annotations
+      4.3.1 `@Named`, `@Inject`, `@Resource`, etc.
+   4.4 Working with Properties File in Annotations Environment
+   4.5 Developing Layered Applications in Annotations Environment
+   4.6 Spring Core Module with 100% Code/Java Config Approach
+   4.7 Working with `@Bean`, `@Configuration`, `@Lazy`, `@PropertySource`, etc.
+   4.8 Developing Layered Application
+   4.9 Working with AnnotationConfigApplicationContext
+
+5. Spring Boot Core
+   5.1 Introduction to Spring Boot
+   5.2 Spring Boot Primary Goals
+   5.3 Spring Boot Features
+   5.4 Spring Boot Starters
+   5.5 Understanding `@SpringBootApplication`
+   5.6 Auto Configuration
+   5.7 Example Applications
+   5.8 Spring Profiles
+   5.9 Properties vs application.yml
+   5.10 Spring Boot Standalone Flow
+   5.11 Working with STS Plugins in Eclipse to Develop Spring Boot Application
+
+6. Spring JDBC/DAO
+   6.1 Introduction
+   6.2 Plain JDBC Limitations
+   6.3 Spring JDBC/DAO Advantages
+   6.4 Working with Different Data Sources
+   6.5 JdbcTemplate
+   6.6 JNDI Registry and Server Managed JDBC Connection Pool
+   6.7 Callback Interfaces
+   6.8 Batch Processing/Updating
+   6.9 NamedParameterJdbcTemplate
+   6.10 Working with SimpleJdbcInsert, SimpleJdbcCall
+   6.11 SimpleJdbcCall to Call PL/SQL Procedures
+   6.12 Mapping SQL Operations as Sub Classes
+   6.13 Spring JDBC/DAO with Annotations
+   6.14 Spring JDBC/DAO with 100% Code Approach
+   6.15 Spring Boot JDBC/DAO
+      6.15.1 Spring Boot DAO - JdbcTemplate
+      6.15.2 Spring Boot DAO - Simple Jdbc Insert
+   6.16 Spring Boot Application Flow
+   6.17 Working with DataSources through AutoConfiguration in Spring Boot 1.x and 2.x
+
+7. Spring AOP Module
+   7.1 Introduction
+   7.2 Need of AOP
+   7.3 Proxy Design Patterns
+   7.4 AOP Terminologies/Principles
+      7.4.1 Aspect
+      7.4.2 Advice
+      7.4.3 Joinpoint
+      7.4.4 Pointcut
+      7.4.5 Target Class
+      7.4.6 Proxy Class
+      7.4.7 Weaving
+   7.5 Types of Advices
+      7.5.1 Before Advice
+      7.5.2 After Advice
+      7.5.3 Around Advice
+      7.5.4 Throws Advice
+   7.6 Types of Pointcuts
+      7.6.1 Static Pointcuts
+      7.6.2 Dynamic Pointcuts
+   7.7 Programmatic Spring AOP
+   7.8 Declarative Spring AOP
+   7.9 `@AspectJ` Style AOP Support
+   7.10 Spring AOP/AspectJ AOP with Annotations
+   7.11 Spring AOP/AspectJ AOP with 100% Code Approach
+   7.12 Spring AOP/AspectJ AOP with Spring Boot AOP
+
+8. Spring Transaction Management
+   8.1 Introduction to Transaction Management
+   8.2 Local Transaction vs Distributed Transaction
+   8.3 2PC Principle
+   8.4 Transaction Models
+      8.4.1 Flat Transaction Model
+      8.4.2 Nested Transaction Model
+   8.5 Need of Spring Transaction Management
+   8.6 Choosing Spring Transaction Manager
+      8.6.1 DataSourceTransactionManager
+      8.6.2 Hibernate TransactionManager
+      8.6.3 JTATransactionManager, etc.
+   8.7 Different Ways of Implementing Spring Transaction Management
+      8.7.1 Programmatic Approach
+      8.7.2 Declarative Approach using Spring AOP/AspectJ AOP
+      8.7.3 Annotation Driven Approach using AspectJ AOP
+      8.7.4 100% Code Driven Approach using AspectJ AOP
+      8.7.5 Spring Boot Driven Approach using AspectJ AOP
+   8.8 Transaction Attributes
+   8.9 Transactions and Integration Testing
+   8.10 Distributed Transaction Management Implementation using WebLogic Server, Atomikos API
+   8.11 Configuring Transaction Isolation Levels
+      8.11.1 Read Uncommitted
+      8.11.2 Read Committed
+      8.11.3 Repeatable Read
+      8.11.4 Serializable
+   8.12 Working with RollbackFor, NoRollbackFor, Timeout, etc. in Transaction Management
+
+9. Spring MVC
+   9.1 Introduction to MVC

@@ -1,0 +1,130 @@
+-------------------------------------------------------
+INTRODUCTION
+-------------------------------------------------------
+1) Introduction to Real-time Project
+2) Types of Software Companies
+   a) Product Based Companies
+   b) Service Based Companies
+   c) Outsourcing Companies
+3) Interview Process in Software Companies
+4) Types of Software Jobs
+   a) Permanent Job
+   b) Contract Job
+5) Types of Software Projects
+   a) Scratch Development Projects
+   b) Maintenance Projects
+   c) Migration Projects
+6) Types of Teams in Software Projects
+   a) On-shore Team
+   b) Off-shore Team
+-------------------------------------------------------
+REALTIME - TOOLS
+-------------------------------------------------------
+7) Maven
+8) Gradle
+9) Debugging
+10) Project Lombok
+11) GIT & Bit Bucket
+12) Log4J & SLF4J
+13) Putty & WinSCP
+14) JUnit
+15) Mocking
+16) JaCoCo
+17) SonarQube
+18) JIRA
+19) Jenkins
+20) Docker
+21) Kubernetes
+22) JMeter
+23) Apache Kafka
+24) Redis Cache
+25) POSTMAN
+26) Swagger
+-------------------------------------------------------
+MINI PROJECTS DEVELOPMENT
+-------------------------------------------------------
+27) SDLC (Agile)
+   I) Story
+   II) Story Points
+   III) Backlog Grooming
+   IV) Sprint Planning
+   V) Sprint
+   VI) Sprint Duration
+   VII) Scrum
+   VIII) Retrospective
+28) Real-time Environment Terminology
+29) Requirements Gathering
+30) Requirements Analysis
+31) Minutes of Meeting
+32) Query Log
+33) DB Design
+34) Real-time Coding Standards
+35) Mini Project 1
+36) Mini Project 2
+37) Mini Projects Case Study
+-------------------------------------------------------
+MAJOR PROJECT DEVELOPMENT
+-------------------------------------------------------
+38) Major Project Introduction
+39) Major Project Modules
+40) Major Project Architecture
+41) Major Project Functional Flow
+42) Database Design
+43) Microservices Development
+44) Logging in Project
+45) Swagger Configuration
+46) Actuators Configuration
+47) Exception Handling
+48) Multi-threading Use Case in Project
+49) REST Calls in Project
+50) Batch Processing
+51) Unit Testing
+52) Integration Testing
+53) Code Review
+54) Project Deployment
+-------------------------------------------------------
+AWS (Cloud)
+-------------------------------------------------------
+55) What is Cloud Computing
+56) AWS Introduction
+57) AWS Advantages
+58) AWS Account Creation
+59) AWS Services Tour
+60) Launching EC2 Machine (Linux)
+61) Connecting to EC2 using Putty
+62) Linux Commands
+63) S3 Buckets
+64) RDS (Relational Database System)
+65) Deploying Spring Boot App in AWS
+66) Load Balancing
+67) Auto Scaling
+68) IAM User
+69) Route 53
+-------------------------------------------------------
+ANGULAR FRAMEWORK
+-------------------------------------------------------
+70) Angular Introduction
+71) AngularJS vs Angular
+72) Angular Version History
+73) Angular Environment Setup
+74) Angular Architecture
+75) Angular App Development
+76) Components
+77) Templates
+78) Directives & Pipes
+79) Services
+80) Forms Development
+81) Form Validations
+82) Routing
+83) HTTP Client Module
+84) Integration (Front End + Back End)
+85) Spring Boot with Angular Integration
+86) Angular App Deployment
+-------------------------------------------------------
+INTERVIEW GUIDE
+-------------------------------------------------------
+87) Resume Preparation
+88) Profile Creation in Job Portals
+89) Email Writing
+90) HR Discussion Details
+-------------------------------------------------------

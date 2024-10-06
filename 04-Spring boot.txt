@@ -1,0 +1,235 @@
+SPRING
+------------------------------------------
+1. What is Spring Framework
+
+------------------------------------------
+SPRING BOOT
+------------------------------------------
+1. What is Spring Framework
+2. What is Spring Boot
+3. Differences between Spring & Spring Boot
+4. Spring Boot Overview
+5. Pros & Cons of Spring Boot
+6. Approaches to Create Spring Boot Application
+   6.1. Spring Initializer (start.spring.io)
+   6.2. Spring Starter Wizard in STS IDE
+7. Introduction to Spring Boot Starters
+   7.1. Spring Boot Parent Starter
+   7.2. Spring-boot-starter
+   7.3. Spring-boot-starter-web
+   7.4. Spring-boot-starter-webflux
+   7.5. Spring-boot-starter-data-jpa
+   7.6. Spring-boot-devtools
+   7.7. Spring-boot-starter-mail
+   7.8. Spring-boot-actuator
+   7.9. Spring-boot-starter-test
+8. What is Start Class in Spring Boot
+9. @SpringBootApplication Annotation Internals
+10. SpringApplication.run(..) Method Internals
+11. Spring Boot Application Bootstrapping
+12. AutoConfiguration in Spring Boot
+13. IOC Container
+14. Dependency Injection
+   14.1. Setter Injection
+   14.2. Constructor Injection
+   14.3. Field Injection
+15. Stereotype Annotations
+   15.1. @Component
+   15.2. @Service
+   15.3. @Repository
+   15.4. @Controller
+16. Base Package Naming Convention
+17. Component Scanning
+18. Auto Wiring
+   18.1. byType
+   18.2. byName
+   18.3. Constructor
+   18.4. None
+19. @Qualifier Annotation
+20. @Primary Annotation
+21. Introduction to @Configuration Annotation
+22. Details of @Bean Annotation
+23. Bean Life Cycle
+24. Bean Scopes
+25. Banner in Spring Boot
+26. Standalone Application Development in Spring Boot
+27. Standalone Application with Layered Architecture
+28. Runner in Spring Boot
+   28.1. Application Runner
+   28.2. CommandLine Runner
+------------------------------------------
+SPRING DATA JPA
+------------------------------------------
+29. What is Persistence Layer
+30. Best Practices to Follow in Persistence Layer
+31. ORM Basics
+32. Spring Data JPA Introduction
+33. Differences between Spring ORM and Spring Data
+34. CurdRepository Introduction
+35. CurdRepository Methods for DB Operations
+   35.1. save( ) Method
+   35.2. saveAll( ) Method
+   35.3. findById( ) Method
+   35.4. findAllById( ) Method
+   35.5. findAll( ) Method
+   35.6. deleteById( ) Method
+   35.7. deleteAllById( ) Method
+   35.8. delete( ) Method
+   35.9. count( )
+   35.10. existsById( )
+36. Custom findByXXX Method Syntax
+37. Custom Queries Execution in Data JPA
+38. JpaRepository Introduction
+39. JpaRepository Methods for DB Operations
+40. Pagination Using Data JPA Methods
+41. Sorting Using Data JPA Methods
+42. Query By Example Executor
+43. Generators
+44. Custom Generators in Spring Data
+45. Embedded Database Introduction
+46. Application Development Using Embedded Database (H2)
+47. Application Development Using MySQL Database
+48. Profiles in Spring Boot
+------------------------------------------
+SPRING WEB MVC
+------------------------------------------
+49. Spring Web MVC Introduction
+50. Spring Web MVC Advantages
+51. Spring MVC Architecture
+52. Introduction to Front Controller
+53. Controllers
+54. Handler Mappers
+55. View Resolvers
+56. Web Application Development Using Spring Boot
+57. Embedded HTTP Servers Introduction
+   57.1. Embedded Tomcat Server
+   57.2. Embedded Jetty Server
+58. Making Jetty as Default Server
+59. Web Application Deployment in External Server
+60. Sending Data From UI to Controller
+   60.1. Query Param
+   60.2. Path Param
+61. Sending Data From Controller to UI
+   61.1. Model
+   61.2. ModelAndView
+62. @RequestBody Annotation
+63. @ResponseBody Annotation
+64. Form-Based Application Development Using Spring Boot
+65. Thymeleaf Introduction
+66. Web Application with Thymeleaf
+67. Sending Email Using Spring Boot
+68. Exception Handling in Spring Boot Web Application
+69. Spring Boot Actuators
+   69.1. Health
+   69.2. Info
+   69.3. Heapdump
+   69.4. Thread Dump
+   69.5. Beans
+   69.6. HttpTrace
+   69.7. Mappings
+   69.8. Shutdown
+------------------------------------------
+SPRING REST
+------------------------------------------
+70. Distributed Applications
+71. Distributed Technologies
+72. SOAP vs REST
+73. RESTful Services Introduction
+74. REST Principles
+75. One Time Operations
+76. Run Time Operations
+   76.1. Marshalling
+   76.2. Unmarshalling
+77. JAX-B Introduction
+78. JAX-B Architecture
+79. Applications Development with JAX-B
+80. JSON Introduction
+81. XML vs JSON
+82. JACKSON API
+83. Converting Java Object to JSON and Vice Versa Using Jackson API
+84. GSON API
+85. Converting Java Object to JSON and Vice Versa Using GSON API
+86. HTTP Protocol Details
+87. HTTP Methods
+   87.1. GET
+   87.2. POST
+   87.3. PUT
+   87.4. DELETE
+88. HTTP Status Codes
+89. @RestController
+90. @RequestBody
+91. @ResponseBody
+92. @RequestParam
+93. @PathVariable
+94. MediaTypes
+95. Consumes
+96. Produces
+97. Accept Header
+98. Content-Type Header
+99. REST API Development Using Spring Boot
+100. POSTMAN
+101. SWAGGER & SWAGGER UI
+102. Exception Handling in REST API
+103. REST Security
+   103.1. HTTP Basic Auth
+   103.2. JWT
+   103.3. OAuth2.0
+104. Mono Objects
+105. Flux Objects
+106. REST Client Introduction
+107. RestTemplate
+108. WebClient
+109. RestTemplate vs WebClient
+110. Reactive Programming
+111. Synchronous vs Asynchronous Calls
+112. Apache Kafka with Spring Boot
+113. Redis Cache Integration with Spring Boot
+------------------------------------------
+MICRO SERVICES
+------------------------------------------
+114. Monolith Architecture Introduction
+115. Monolith Architecture Case Study
+116. Monolith Application Deployment Process
+117. Load Balancer (Cluster) Case Study
+118. Load Balancing Algorithms
+   118.1. Round Robin
+   118.2. IP Hashing
+   118.3. Sticky Session
+119. Monolith Architecture Drawbacks
+120. Microservices Introduction
+121. Microservices Advantages
+122. Microservices Disadvantages
+123. Microservices Case Study
+124. Identifying Microservices Boundaries
+125. Microservices Architecture
+126. Microservices Development
+   126.1. API – 1
+   126.2. API – 2
+127. Interservice Communication Case Study (FeignClient)
+128. Cloud Introduction
+129. AWS Account Creation
+130. AWS Services Overview
+131. Deploying Microservices to AWS
+132. Service Registry Case Study (Netflix Eureka)
+133. API Gateway
+134. Hystrix (Circuit Breaker)
+135. Spring Boot Admin Server
+136. Spring Boot Admin Client
+137. Distributed Logging
+   137.1. Sleuth Logging
+   137.2. Zipkin Server
+138. Ribbon Case Study (Microservices Load Balancer)
+139. Implementing Ribbon in Microservices
+140. ConfigServer Introduction & Implementation
+141. Microservices Integration with Angular
+
+------------------------------------------
+TOOLS
+------------------------------------------
+142. Maven
+143. Log4J
+144. JUnit 5
+145. Jenkins Deployment
+146. Docker
+147. POSTMAN
+148. Swagger

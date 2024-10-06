@@ -1,0 +1,276 @@
+ Pre-requisites to Learn Core Java
+====================================================================
+- Basic understanding of programming concepts.
+- Familiarity with computers and software applications.
+- A strong desire to learn and explore the world of Java programming.			
+====================================================================
+
+			CORE-JAVA
+---------------------------------
+Java Language, OOPS, Programming
+---------------------------------
+
+"1. Introduction to Java and OOPS",
+"2. Java Tokens - Comments, Identifiers, Keywords, Separators",
+"3. Working with Java Editor Softwares – Editplus, NetBeans, Eclipse",
+"4. Packages with static imports",
+"5. Working with jar",
+"6. Modifiers – File level, Access level and Non-access level",
+"7. Datatypes, Literals, Variables, Type Conversion, Casting & Promotion",
+"8. Reading runtime values from keyboard and Properties File",
+"9. Operators and Control Statements",
+"10. Method and Types of methods",
+"11. Variable and Types of Variables",
+"12. Constructor and Types of constructors",
+"13. Block and Types of Blocks",
+"14. Declarations, Invocations and Executions",
+"15. Compiler & JVM Architecture with Reflection API",
+"16. Static Members and their execution control flow",
+"17. Non-Static Members and their execution control flow",
+"18. Final Variables and their rules",
+"19. Classes and Types of classes",
+"20. OOPS- Fundamentals, Models, Relations and Principles",
+"21. Coupling and Cohesion (MVC and LCRP Architectures)",
+"22. Types of objects & Garbage Collection",
+"23. Arrays and Var-arg types",
+"24. Enum and Annotation",
+"25. Design Patterns"
+---------------------------------
+Java API and Project
+---------------------------------
+"1. API and API Documentation",
+"2. Fundamental Classes – Object, Class, System, Runtime",
+"3. String Handling",
+"4. Exception Handling and Assertions",
+"5. Multithreading with JVM Architecture",
+"6. IO Streams (File IO)",
+"7. Networking (Socket Programming)",
+"8. Wrapper Classes with Auto boxing and unboxing",
+"9. Collections with Generics",
+"10. Java 5, 6, 7, 8 new features",
+"11. Inner classes",
+"12. AWT, Swings, Applet",
+"13. Regular Expressions",
+"14. Formatting date, time (java.text package)"
+
+
+
+
+
+
+
+===================================================
+Course Content
+===================================================
+1. Introduction
+2. Installation
+3. Programming Elements
+4. First Application
+5. Data Types
+6. Operators
+7. Control Statements
+8. Access Modifiers
+9. Wrapper Classes
+10. Packages
+11. OOPS
+12. Object Casting
+13. Exception Handling
+14. Multi Threading
+15. Garbage Collection
+16. Inner Classes
+17. Java I/O
+18. File Handling
+19. String Handling
+20. Reflection API
+21. Arrays
+22. Collection Framework
+23. Map Interface
+24. JDK 8 features
+25. JDK 10, 11 features
+
+
+........
+
+1. Introduction
+   1.1 Introduction
+   1.2 History
+   1.3 Platform Dependency
+   1.4 Independency
+
+2. Installation
+   2.1 Download and Install
+   2.2 Path Settings
+   2.3 Manual Execution
+   2.4 IDEs
+
+3. Programming Elements
+   3.1 Introduction to Variables and Methods
+
+4. First Application
+   4.1 Classes, Objects, Contexts (Static and Instance)
+   4.2 Naming Conventions
+   4.3 API Documentation
+   4.4 Main Method – Object Class Methods to be Discussed Later on
+
+5. Data Types
+   5.1 Primitive Types
+   5.2 Reference Types
+   5.3 Limits
+   5.4 Type Casting
+   5.5 ASCII and UNICODE
+
+6. Operators
+   6.1 Arithmetic
+   6.2 Assignment
+   6.3 Relational
+   6.4 Logical
+   6.5 Conditional
+   6.6 Shift
+   6.7 Bitwise and Compound Assignment
+
+7. Control Statements
+   7.1 Conditional Control Statements with Flowcharts and Programs
+   7.2 Loop Control Statements with Flowcharts and Programs
+   7.3 Branching Statements
+
+8. Access Modifiers
+   8.1 Private
+   8.2 Package
+   8.3 Protected and Public
+
+9. Wrapper Classes
+   9.1 String Conversions
+   9.2 Boxing, Unboxing, Auto Boxing, Auto Unboxing
+   9.3 Fields of Wrapper Classes
+
+10. Packages
+    10.1 Introduction
+    10.2 Pre-defined Packages
+    10.3 Custom Package Creation
+    10.4 Manual Compilation of Package File
+    10.5 Util Package (Random Class, Scanner Class)
+    10.6 Sub Packages (Custom Sub Package Creation, Class Loader Sub System, Fully Qualified Name, Duplicate Classes)
+
+11. OOPS
+    11.1 Introduction to OOPs
+    11.2 Inheritance
+    11.3 Super
+    11.4 Final
+    11.5 Abstraction
+    11.6 Interfaces
+    11.7 Polymorphism
+
+12. Object Casting
+    12.1 Object Upcasting
+    12.2 Downcasting
+    12.3 InstanceOf
+    12.4 Has-A Relation
+    12.5 Composition
+    12.6 Aggregation
+
+13. Exception Handling
+    13.1 Introduction
+    13.2 Hierarchy
+    13.3 Errors and Exceptions
+    13.4 Handling Exception
+    13.5 Try, Catch, Multi Catch
+    13.6 Throw, Throws, Custom Exceptions
+
+14. Multi Threading
+    14.1 Introduction
+    14.2 Thread Class
+    14.3 Runnable Interface
+    14.4 Start() Method
+    14.5 Join()
+    14.6 Threads Synchronization
+    14.7 Wait, Notify, NotifyAll, Deadlocks
+
+15. Garbage Collection
+    15.1 Daemon Threads
+    15.2 System.gc()
+    15.3 Runtime Class
+    15.4 Factory Class
+    15.5 Singleton Class
+    15.6 Runtime.gc()
+
+16. Inner Classes
+    16.1 Introduction
+    16.2 Static Inner Class
+    16.3 Non Static Inner Class
+    16.4 Local Inner Classes
+    16.5 Anonymous Inner Classes
+
+17. Java I/O
+    17.1 Introduction
+    17.2 Byte Streams
+    17.3 Character Streams
+    17.4 Buffered Streams
+    17.5 Data Streams
+    17.6 Serialization and De-serialization
+    17.7 Array Streams
+
+18. File Handling
+    18.1 Introduction
+    18.2 Create File
+    18.3 Create Directory
+    18.4 Create Sub Directory
+    18.5 File Permissions
+
+19. String Handling
+    19.1 Introduction
+    19.2 Mutability
+    19.3 Immutability
+    19.4 String Methods
+    19.5 String Buffer
+    19.6 String Builder
+    19.7 String Tokenizer
+
+20. Reflection API
+    20.1 Class.forName()
+    20.2 Dynamic Loading
+    20.3 Class Information
+    20.4 Methods Information…
+
+21. Arrays
+    21.1 Introduction
+    21.2 One Dimensional Arrays
+    21.3 Arrays Class
+    21.4 Two Dimensional Arrays
+    21.5 Multi Dimensional Arrays
+
+22. Collection Framework
+    22.1 List Interface
+    22.2 Queue Interface
+    22.3 Set Interface
+
+23. Map Interface
+    23.1 HashMap
+    23.2 LinkedHashMap and TreeMap
+    23.3 Comparator
+
+24. JDK 8 features
+    24.1 For Each Method
+    24.2 Default and Static Methods in Interface
+    24.3 Lambda Expressions
+    24.4 Time API
+    24.5 Stream API
+
+25. JDK 10, 11 features
+    25.1 Jshell
+    25.2 Private Methods in Interfaces
+    25.3 Factory Methods for Collection Classes
+
+
+
+===================================================
+
+
+
+
+
+
+
+
+
+
+
